@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+  version="3.1"
+  metadata-complete="false">
+
+  <display-name>Welcome to 1023</display-name>
+  <!-- <servlet>
+  	<servlet-name>InitParameter</servlet-name>
+  	<servlet-class>InitParameterServlet</servlet-class>
+  	<init-param>
+  		<param-name>DBDRIVER</param-name>
+  		<param-value>org.mariadb.jdbc.Driver</param-value>
+  	</init-param>
+  	<init-param>
+  		<param-name>DBURL</param-name>
+  		<param-value>jdbc:mariadb://localhost:3306/world</param-value>
+  	</init-param>
+  	<init-param>
+  		<param-name>DBUSER</param-name>
+  		<param-value>root</param-value>
+  	</init-param>
+  	<init-param>
+  		<param-name>DBPWD</param-name>
+  		<param-value>javamariadb</param-value>
+  	</init-param>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>InitParameter</servlet-name>
+  	<url-pattern>/servlet/InitParameterDemo</url-pattern>
+  </servlet-mapping> -->
+</web-app>
+

@@ -13,6 +13,16 @@
     <servlet-name>HelloWorld</servlet-name>
     <servlet-class>HelloWorldServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>Get</servlet-name>
+    <servlet-class>GetServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Get</servlet-name>
+    <url-pattern>/servlets/servlet/GetDemo</url-pattern>
+  </servlet-mapping>
+  
   <servlet-mapping>
     <servlet-name>HelloWorld</servlet-name>
     <url-pattern>/servlets/servlet/Hello</url-pattern>
