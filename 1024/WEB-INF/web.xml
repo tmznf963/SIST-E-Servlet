@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+  version="3.1"
+  metadata-complete="true">
+
+  <display-name>Welcome to 1024</display-name>
+  
+  <servlet>
+  	<servlet-name>RequestDemo</servlet-name>
+  	<servlet-class>RequestDemoServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>JdbcDemo</servlet-name>
+  	<servlet-class>JdbcDemoServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CityDemo</servlet-name>
+  	<servlet-class>com.example.view.CityServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+  	<servlet-name>CityDemo</servlet-name>
+  	<url-pattern>/servlet/City</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>JdbcDemo</servlet-name>
+  	<url-pattern>/servlet/JdbcDemo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestDemo</servlet-name>
+  	<url-pattern>/servlet/RequestDemo</url-pattern>
+  </servlet-mapping>
+</web-app>
