@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>쌍용고등학교 성적입력창</title>
+</head>
+<body>
+	<h1>쌍용고등학교 성적입력</h1>
+	<form action="/sungjukmgmt/servlet/Input" method="post">
+		<table>
+			<tbody>
+				<tr>
+					<th><label for="txtHakbun">학번</label></th>
+					<td><input type="text" name="hakbun" id="txtHakbun"></td>
+				</tr>
+				<tr>
+					<th><label for="txtName">이름</label></th>
+					<td><input type="text" name="name" id="txtName"></td>
+				</tr>
+				<tr>
+					<th><label for="txtKor">국어</label></th>
+					<td><input type="text" name="kor" id="txtKor"></td>
+				</tr>
+				<tr>
+					<th><label for="txtEng">영어</label></th>
+					<td><input type="text" name="eng" id="txtEng"></td>
+				</tr>
+				<tr>
+					<th><label for="txtMat">수학</label></th>
+					<td><input type="text" name="mat" id="txtMat"></td>
+				</tr>
+				<tr>
+					<th><label for="txtEdp">전산</label></th>
+					<td><input type="text" name="edp" id="txtEdp"></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="submit" id="btnAdd" value="추가하기">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>
